@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26403.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "ChilliSource.Mobile.Media", "ChilliSource.Mobile.Media\ChilliSource.Mobile.Media.shproj", "{C5227222-06A3-4CC6-8392-6CF9DD29AAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.Media.Droid", "ChilliSource.Mobile.Media.Droid\ChilliSource.Mobile.Media.Droid.csproj", "{19DF7288-7B85-44BC-B6F1-6460F20CF6AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChilliSource.Mobile.Media.iOS", "ChilliSource.Mobile.Media.iOS\ChilliSource.Mobile.Media.iOS.csproj", "{C6327339-1FF3-4777-9687-2C8A7880B264}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		ChilliSource.Mobile.Media\ChilliSource.Mobile.Media.projitems*{19df7288-7b85-44bc-b6f1-6460f20cf6ae}*SharedItemsImports = 4
+		ChilliSource.Mobile.Media\ChilliSource.Mobile.Media.projitems*{c5227222-06a3-4cc6-8392-6cf9dd29aab7}*SharedItemsImports = 13
+		ChilliSource.Mobile.Media\ChilliSource.Mobile.Media.projitems*{c6327339-1ff3-4777-9687-2c8a7880b264}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19DF7288-7B85-44BC-B6F1-6460F20CF6AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19DF7288-7B85-44BC-B6F1-6460F20CF6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19DF7288-7B85-44BC-B6F1-6460F20CF6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19DF7288-7B85-44BC-B6F1-6460F20CF6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6327339-1FF3-4777-9687-2C8A7880B264}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6327339-1FF3-4777-9687-2C8A7880B264}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6327339-1FF3-4777-9687-2C8A7880B264}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6327339-1FF3-4777-9687-2C8A7880B264}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
