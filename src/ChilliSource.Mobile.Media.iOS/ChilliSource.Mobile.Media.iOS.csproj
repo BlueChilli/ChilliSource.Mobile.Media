@@ -42,9 +42,6 @@
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
     <Reference Include="Xamarin.iOS" />
-    <Reference Include="ChilliSource.Mobile.Core">
-      <HintPath>..\packages\ChilliSource.Mobile.Core.1.0.0-alpha0065\lib\Xamarin.iOS10\ChilliSource.Mobile.Core.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Forms.Core">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Core.dll</HintPath>
     </Reference>
@@ -56,6 +53,30 @@
     </Reference>
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.3.4.231\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Mobile.Core">
+      <HintPath>..\packages\ChilliSource.Mobile.Core.1.0.2\lib\Xamarin.iOS10\ChilliSource.Mobile.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="BTProgressHUD">
+      <HintPath>..\packages\BTProgressHUD.1.2.0.3\lib\Xamarin.iOS10\BTProgressHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Mobile.UI.Core">
+      <HintPath>..\packages\ChilliSource.Mobile.UI.Core.1.0.0\lib\Xamarin.iOS10\ChilliSource.Mobile.UI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Lottie.iOS">
+      <HintPath>..\packages\Com.Airbnb.iOS.Lottie.1.0.0.5\lib\xamarinios\Lottie.iOS.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup">
+      <HintPath>..\packages\Rg.Plugins.Popup.0.0.17\lib\Xamarin.IOS\Rg.Plugins.Popup.dll</HintPath>
+    </Reference>
+    <Reference Include="Rg.Plugins.Popup.IOS">
+      <HintPath>..\packages\Rg.Plugins.Popup.0.0.17\lib\Xamarin.IOS\Rg.Plugins.Popup.IOS.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Mobile.UI">
+      <HintPath>..\packages\ChilliSource.Mobile.UI.1.0.0\lib\Xamarin.iOS10\ChilliSource.Mobile.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="ChilliSource.Core.Extensions">
+      <HintPath>..\packages\ChilliSource.Core.Extensions.1.0.5\lib\netstandard1.6\ChilliSource.Core.Extensions.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup />
