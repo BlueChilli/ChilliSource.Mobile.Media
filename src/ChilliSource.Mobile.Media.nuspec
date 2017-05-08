@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>ChilliSource.Mobile.Media</id>
+    <version>$version$</version>
+    <title>ChilliSource Mobile Media</title>
+    <description>Media Plugin</description>
+    <authors>$authors$</authors>
+    <owners>$owners$</owners>
+    <requireLicenseAcceptance>$requireLicenseAcceptance$</requireLicenseAcceptance>
+    <copyright>$copyright$</copyright>
+    <projectUrl>$projectUrl$</projectUrl>    
+    <licenseUrl>$licenceUrl$</licenseUrl>
+    <releaseNotes>$releaseNotes$</releaseNotes>
+    <tags>$tags$</tags>
+    <dependencies>
+      <group>
+        <dependency id="ChilliSource.Mobile.Core" version="1.0.0" />
+        <dependency id="ChilliSource.Mobile.UI.Core" version="1.0.0" />
+        <dependency id="Xamarin.Forms" version="2.3.2.127" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+      <!-- Android -->
+    <file src="ChilliSource.Mobile.Media.Droid/bin/ChilliSource.Mobile.Media.dll" target="lib/MonoAndroid403/ChilliSource.Mobile.Media.dll" />
+
+    <!-- iOS -->
+    <file src="ChilliSource.Mobile.Media.iOS/bin/ChilliSource.Mobile.Media.dll" target="lib/Xamarin.iOS10/ChilliSource.Mobile.Media.dll" />
+
+  </files>
+</package>
